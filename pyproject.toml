@@ -1,7 +1,7 @@
 [project]
-name = "llm-tools-filesystem-toolbox"
+name = "llm-tools-haskell-toolbox"
 version = "0.1"
-description = "a toolbox for `llm` that affords filesystem operations, such as reading and writing files"
+description = "a toolbox for `llm` that lets the language model look up Haskell documentation"
 readme = "README.md"
 authors = [{name = ""}]
 license = "Apache-2.0"
@@ -16,7 +16,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project.entry-points.llm]
-llm_tools_filesystem_toolbox = "llm_tools_filesystem_toolbox"
+llm_tools_haskell_toolbox = "llm_tools_haskell_toolbox"
 
 [project.optional-dependencies]
 test = ["pytest", "llm-echo>=0.3a1"]

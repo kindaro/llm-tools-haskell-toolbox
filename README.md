@@ -1,14 +1,14 @@
-# llm-tools-filesystem-toolbox
+# llm-tools-haskell-toolbox
 
-[![PyPI](https://img.shields.io/pypi/v/llm-tools-filesystem-toolbox.svg)](https://pypi.org/project/llm-tools-filesystem-toolbox/)
+[![PyPI](https://img.shields.io/pypi/v/llm-tools-haskell-toolbox.svg)](https://pypi.org/project/llm-tools-haskell-toolbox/)
 
-a toolbox for `llm` that affords filesystem operations, such as reading and writing files
+a toolbox for `llm` that affords haskell operations, such as reading and writing files
 
 ## Installation
 
 Install this plugin in the same environment as [LLM](https://llm.datasette.io/).
 ```bash
-llm install llm-tools-filesystem-toolbox
+llm install llm-tools-haskell-toolbox
 ```
 ## Usage
 
@@ -22,7 +22,7 @@ With the [LLM Python API](https://llm.datasette.io/en/stable/python-api.html):
 
 ```python
 import llm
-from llm_tools_filesystem_toolbox import example_hello
+from llm_tools_haskell_toolbox import example_hello
 
 model = llm.get_model("gpt-4.1-mini")
 
@@ -36,7 +36,7 @@ result = model.chain(
 
 To set up this plugin locally, first checkout the code. Then create a new virtual environment:
 ```bash
-cd llm-tools-filesystem-toolbox
+cd llm-tools-haskell-toolbox
 python -m venv venv
 source venv/bin/activate
 ```
